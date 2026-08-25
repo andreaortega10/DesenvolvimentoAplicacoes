@@ -1,10 +1,10 @@
 void main() {
   
   Filme filme1 = Filme(
-    "Capitão América: O Primeiro Vingador", 
-    "Ação", 
-    12, 
-    125
+    titulo: "Capitão América: O Primeiro Vingador",
+    genero: "Ação",
+    classificacao: 12,
+    duracao: 125
   );
 
   filme1.infoFilme();
